@@ -1,12 +1,13 @@
-"""Basic arithmetic functions."""
+"""Basic arithmetic functions with alternate changes."""
 
 
 def add(a, b):
-    return a + b
+    # Altered implementation from conflict branch
+    return int(a) + int(b)
 
 
 def subtract(a, b):
-    return a - b
+    return int(a) - int(b)
 
 
 def average(nums):
