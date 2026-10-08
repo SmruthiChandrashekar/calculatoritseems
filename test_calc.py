@@ -1,5 +1,5 @@
 import unittest
-from calc import add, subtract, average
+from calc import add, subtract, multiply, average
 
 
 class TestCalc(unittest.TestCase):
@@ -10,6 +10,10 @@ class TestCalc(unittest.TestCase):
     def test_subtract(self):
         self.assertEqual(subtract(5, 3), 2)
         self.assertEqual(subtract(0, 4), -4)
+
+    def test_multiply(self):
+        self.assertEqual(multiply(3, 4), 12)
+        self.assertEqual(multiply(-2, 3), -6)
 
     def test_average(self):
         self.assertEqual(average([1, 2, 3, 4, 5]), 3.0)

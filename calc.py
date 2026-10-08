@@ -9,6 +9,11 @@ def subtract(a, b):
     return a - b
 
 
+def multiply(a, b):
+    """Multiply two numbers."""
+    return a * b
+
+
 def average(nums):
     if not nums:
         return 0
