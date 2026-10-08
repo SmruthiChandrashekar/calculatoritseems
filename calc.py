@@ -9,7 +9,8 @@ def subtract(a, b):
     return a - b
 
 
-def average(nums):
+def average(nums, round_to):
+    """Calculate rounded average."""
     if not nums:
         return 0
-    return sum(nums) / len(nums)
+    return round(sum(nums) / len(nums), round_to)
