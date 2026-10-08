@@ -1,12 +1,14 @@
-"""Basic arithmetic functions."""
+"""Basic arithmetic functions with docstrings."""
 
 
 def add(a, b):
-    return a + b
+    """Add two numbers strictly as floats."""
+    return float(a) + float(b)
 
 
 def subtract(a, b):
-    return a - b
+    """Subtract two numbers strictly as floats."""
+    return float(a) - float(b)
 
 
 def average(nums):
